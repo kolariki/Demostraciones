@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApp", "WindowsApp\WindowsApp.csproj", "{7C1E3BB5-D61F-49BD-AD60-503F8FF3B030}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivan_Kolarik_Casting", "Ivan_Kolarik_Casting\Ivan_Kolarik_Casting.csproj", "{A329DBEA-C39A-4E3E-AF33-71B0386BCDD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7C1E3BB5-D61F-49BD-AD60-503F8FF3B030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C1E3BB5-D61F-49BD-AD60-503F8FF3B030}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C1E3BB5-D61F-49BD-AD60-503F8FF3B030}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C1E3BB5-D61F-49BD-AD60-503F8FF3B030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A329DBEA-C39A-4E3E-AF33-71B0386BCDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A329DBEA-C39A-4E3E-AF33-71B0386BCDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A329DBEA-C39A-4E3E-AF33-71B0386BCDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A329DBEA-C39A-4E3E-AF33-71B0386BCDD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
