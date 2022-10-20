@@ -30,7 +30,15 @@ namespace WindowsPracticas_IVANKOLARIK
             string nombre = txtNombre1.Text;
             string rol = txtRol1.Text;
             string sexo = txtSexo1.Text;
-                MessageBox.Show("Bienvenido :" + nombre + "" + rol + "" + sexo);
+            if(rol == "Administrador" || rol == "Estandar" || rol == "Invitado")
+            {
+                MessageBox.Show("Bienvenido :" + nombre + "Rol : " + rol + "Sexo :" + sexo);
+            }
+            else
+            {
+                MessageBox.Show("Informacion Incorrecta");
+            }
+                
             }
 
         }
