@@ -20,20 +20,26 @@ namespace WindowsPracticas_IVANKOLARIK
 
         private void btnObtenerDatos_Click(object sender, EventArgs e)
         {
-            Imprimir();
+            ImprimirNombreCompleto(txtNombre6.Text, txtApellido6.Text, (DateTime.Today.Year - dateTime1.Value.Year ));
         }
 
         #region mis metodos
         private void Imprimir()
         {
-            int hoy = DateTime.Today.Year;
-            int anio = dateTime1.Value.Year;
-            int fecha = hoy - anio;
-      string nombre = txtNombre6.Text;
+            
+            string nombre = txtNombre6.Text;
             string apellido= txtApellido6.Text;
 
-            MessageBox.Show(nombre + "" + apellido + "" + "tiene" + fecha + "" + "años");
+            MessageBox.Show(nombre + "" + apellido);
         }
-#endregion
+
+        private void ImprimirNombreCompleto(string nombre, string apellido, int fecha)
+        {
+            int hoy = DateTime.Today.Year;
+            int anio = dateTime1.Value.Year;            
+
+            MessageBox.Show(nombre + " " + apellido + " " + "tiene" + " " +  fecha + " " + "años");
+        }
+        #endregion
     }
 }
