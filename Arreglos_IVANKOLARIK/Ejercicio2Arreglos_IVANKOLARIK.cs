@@ -11,9 +11,9 @@ using Microsoft.VisualBasic;
 
 namespace Arreglos_IVANKOLARIK
 {
-    public partial class Form2 : Form
+    public partial class Ejercicio2Arreglos_IVANKOLARIK : Form
     {
-        public Form2()
+        public Ejercicio2Arreglos_IVANKOLARIK()
         {
             InitializeComponent();
         }

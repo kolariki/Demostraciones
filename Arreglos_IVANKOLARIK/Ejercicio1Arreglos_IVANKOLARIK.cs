@@ -12,7 +12,7 @@ using Microsoft.VisualBasic;
 
 namespace Arreglos_IVANKOLARIK
 {
-    public partial class Form1 : Form
+    public partial class Ejercicio1Arreglos_IVANKOLARIK : Form
     {
         public struct DatoAlumno
         {
@@ -22,7 +22,7 @@ namespace Arreglos_IVANKOLARIK
             public string Nombre;
         }
 
-        public Form1()
+        public Ejercicio1Arreglos_IVANKOLARIK()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Arreglos_IVANKOLARIK
 {
-    partial class Form1
+    partial class Ejercicio1Arreglos_IVANKOLARIK
     {
         /// <summary>
         /// Variable del diseñador necesaria.
