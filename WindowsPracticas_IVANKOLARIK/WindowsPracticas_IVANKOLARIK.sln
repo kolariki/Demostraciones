@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4Arreglos_IVANKOLA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio5Arreglo_IVANKOLARIK", "Ejercicio5Arreglo_IVANKOLARIK\Ejercicio5Arreglo_IVANKOLARIK.csproj", "{21680CC3-E831-40E4-97F9-55B2B573A55C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EjerciciosArreglos_IVANKOLARIK", "EjerciciosArreglos_IVANKOLARIK", "{CB1A96FA-FBF8-451A-B54B-A42D26A3F446}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D483E80-9F6E-4621-8CF4-079C08656898} = {CB1A96FA-FBF8-451A-B54B-A42D26A3F446}
+		{A0FC0DED-73F0-466A-AE88-02CAD29DA7C6} = {CB1A96FA-FBF8-451A-B54B-A42D26A3F446}
+		{4B0CC929-7A64-4FB3-80E1-8963107D9C54} = {CB1A96FA-FBF8-451A-B54B-A42D26A3F446}
+		{21680CC3-E831-40E4-97F9-55B2B573A55C} = {CB1A96FA-FBF8-451A-B54B-A42D26A3F446}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {146ECDA0-6E7A-4FF2-BAF7-733AC94DB288}
